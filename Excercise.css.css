@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 45px;
+  background-color: #FAEBD7;
+}
+
+/* Style the header */
+header {
+  background-color: #FAEBD7;
+  text-align: center;
+  height: 250px;
+  width: 249px;
+  float: left;
+  margin: 40px;
+}
+
+/* Style the top navigation bar */
+nav {
+  flow: center-left;
+  overflow: hidden;
+  background-color: black;
+  width:50%;
+  border-style: solid;
+  margin: 40px;
+  display: inline-block;
+
+}
+
+/* Style the topnav links */
+nav a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 7px 25px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 60%;
+  margin: 45px;
+  border-style: solid;
+  background-color: springgreen;
+  padding: 20px;
+  
+}
+
+.column1 {
+  float: left;
+  width: 26%;
+  background-color: springgreen;
+  padding: 20px;
+  margin: 45px;
+  border-style: solid;
+  height: 50%;
+}
+.column2 {
+  float: left;
+  width: 26%;
+  background-color: springgreen;
+  padding: 20px;
+  margin: 45px;
+  border-style: solid;  
+  height: 61%;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+}
+
+.footer {
+  background: springgreen;
+  margin: 45px;
+  border-style: solid;
+  padding: 20px;
+}
+
+@media all and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+article{
+	clear: both;
+	border-color: black;
+	border-style: solid;
+	margin: 43px;
+}
